@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Circle-Detection/static/css/main.a8e82850.chunk.css",
+    "main.js": "/Circle-Detection/static/js/main.2739455b.chunk.js",
+    "main.js.map": "/Circle-Detection/static/js/main.2739455b.chunk.js.map",
+    "runtime-main.js": "/Circle-Detection/static/js/runtime-main.f0e3241f.js",
+    "runtime-main.js.map": "/Circle-Detection/static/js/runtime-main.f0e3241f.js.map",
+    "static/js/2.45215afa.chunk.js": "/Circle-Detection/static/js/2.45215afa.chunk.js",
+    "static/js/2.45215afa.chunk.js.map": "/Circle-Detection/static/js/2.45215afa.chunk.js.map",
+    "index.html": "/Circle-Detection/index.html",
+    "precache-manifest.7f104bf3b1b427e22437d8ddc7520daa.js": "/Circle-Detection/precache-manifest.7f104bf3b1b427e22437d8ddc7520daa.js",
+    "service-worker.js": "/Circle-Detection/service-worker.js",
+    "static/css/main.a8e82850.chunk.css.map": "/Circle-Detection/static/css/main.a8e82850.chunk.css.map",
+    "static/js/2.45215afa.chunk.js.LICENSE.txt": "/Circle-Detection/static/js/2.45215afa.chunk.js.LICENSE.txt",
+    "static/media/loading.gif": "/Circle-Detection/static/media/loading.bb533f76.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0e3241f.js",
+    "static/js/2.45215afa.chunk.js",
+    "static/css/main.a8e82850.chunk.css",
+    "static/js/main.2739455b.chunk.js"
+  ]
+}
