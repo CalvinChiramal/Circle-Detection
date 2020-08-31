@@ -14,7 +14,7 @@ class App extends React.Component {
   
   componentDidMount() {
     this.script = document.createElement("script");
-    this.script.src = '/utils/opencv.js';
+    this.script.src = 'https://docs.opencv.org/4.4.0/opencv.js';
     this.script.async = true;
     this.script.onload = () => this.onScriptLoad();
     document.body.appendChild(this.script);
