@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-
-/* global cv */
+import {Loading, MainDisplay} from '../Display';
 
 class App extends React.Component {
   constructor(props) {
@@ -11,7 +10,6 @@ class App extends React.Component {
 
   onScriptLoad = () => {
     this.setState({cvLoaded:true});
-    console.log(cv.imread+'is a success');
   }
   
   componentDidMount() {
@@ -27,8 +25,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        {this.state.cvLoaded ? <div>Loaded</div>: <div>Loading resources</div>}
+      <div className="app">
+        {this.state.cvLoaded ? <MainDisplay cvLoaded={this.state.cvLoaded}/>: <Loading/>}
       </div>
     )
   }
